@@ -1,0 +1,56 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #87CEEB; /* Light blue background, adjust as needed */
+    color: black; /* Text color in the header */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #87CEEB; /* Match background color */
+    color: black; /* Text color in the header */
+    padding: 10px 20px; /* Ensure padding matches the header */
+}
+
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: black; /* Link color */
+    text-decoration: none;
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Optional: Make the text bold */
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #0077b5; /* LinkedIn blue or any hover color */
+}

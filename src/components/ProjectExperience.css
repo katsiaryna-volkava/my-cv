@@ -1,0 +1,48 @@
+/* ProjectExperience.css */
+
+.project-experience {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.position-timeline {
+    font-style: italic;
+    color: #555;
+}
+
+.project-description {
+    margin: 16px 0;
+}
+
+.stacks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-stack,
+.test-stack {
+    width: 45%;
+}
+
+.project-stack h3,
+.test-stack h3 {
+    margin-top: 0;
+}
+
+.project-stack ul,
+.test-stack ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-stack li,
+.test-stack li {
+    margin-bottom: 8px;
+}
